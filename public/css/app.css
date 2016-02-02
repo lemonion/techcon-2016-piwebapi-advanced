@@ -1,0 +1,39 @@
+body {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input, select {
+  max-width: 200px;
+}
+
+#mapview {
+  float: left;
+  padding-top: 20px;
+}
+
+#mapview > div {
+  text-align: center;
+}
+
+#map {
+  position: relative;
+  width: 750px;
+  height: 450px;
+}
+
+#infoview {
+  float: right;
+  width: 450px;
+}
+
+flot > div {
+  width: 400px !important;
+  height: 200px !important;
+  margin: 10px 0px 10px 0px;
+}
