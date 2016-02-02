@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OSIsoft.AF.xsd" SchemaVersion="2.0" SoftwareVersion="2.8.0.7304" ExportMode="AllReferences, NoUniqueID, DefaultValues" PISystem="PISRV01" Database="WebTraffic" Description="" Created="2016-02-02T13:40:16.2672486Z" id="343e8243-68ff-4a53-83dd-d29d0c2bc056" ParentKey="343e8243-68ff-4a53-83dd-d29d0c2bc056" ExportedObject="NamedCollectionList" ExportedType="AFNamedCollectionList`1" Identity="ElementTemplate">
+  <AFElementTemplate>
+    <Name>State</Name>
+    <Description />
+    <BaseTemplate />
+    <Type>None</Type>
+    <InstanceType>Element</InstanceType>
+    <AllowElementToExtend>false</AllowElementToExtend>
+    <DefaultAttribute />
+    <NamingPattern />
+    <DefaultInputPort />
+    <DefaultOutputPort />
+    <DefaultUndirectedPort />
+    <AFAttributeTemplate>
+      <Name>Abbreviation</Name>
+      <Description />
+      <IsHidden>false</IsHidden>
+      <IsManualDataEntry>false</IsManualDataEntry>
+      <IsConfigurationItem>true</IsConfigurationItem>
+      <IsExcluded>false</IsExcluded>
+      <IsIndexed>false</IsIndexed>
+      <Trait />
+      <DefaultUOM />
+      <Type>String</Type>
+      <TypeQualifier />
+      <Value type="String">0</Value>
+      <DataReference />
+      <ConfigString />
+    </AFAttributeTemplate>
+    <AFAttributeTemplate>
+      <Name>Population</Name>
+      <Description />
+      <IsHidden>false</IsHidden>
+      <IsManualDataEntry>false</IsManualDataEntry>
+      <IsConfigurationItem>false</IsConfigurationItem>
+      <IsExcluded>false</IsExcluded>
+      <IsIndexed>false</IsIndexed>
+      <Trait />
+      <DefaultUOM />
+      <Type>Int64</Type>
+      <TypeQualifier />
+      <Value type="Int64">0</Value>
+      <DataReference />
+      <ConfigString />
+    </AFAttributeTemplate>
+    <AFAttributeTemplate>
+      <Name>VisitDuration</Name>
+      <Description />
+      <IsHidden>false</IsHidden>
+      <IsManualDataEntry>false</IsManualDataEntry>
+      <IsConfigurationItem>false</IsConfigurationItem>
+      <IsExcluded>false</IsExcluded>
+      <IsIndexed>false</IsIndexed>
+      <Trait />
+      <DefaultUOM>s</DefaultUOM>
+      <Type>Double</Type>
+      <TypeQualifier />
+      <Value type="Double">0</Value>
+      <DataReference>PI Point</DataReference>
+      <ConfigString>\\%Server%\%@Abbreviation%.%Attribute%;ptclassname=classic;pointtype=Float64</ConfigString>
+    </AFAttributeTemplate>
+  </AFElementTemplate>
+</AF>
