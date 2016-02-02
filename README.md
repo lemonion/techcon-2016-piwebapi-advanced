@@ -8,7 +8,7 @@ This is a single-page web application that shows statewide web traffic data retr
 * Population (static AF attribute - Population)
 * Visit Duration (PI Point AF attribute – VisitDuration)
   * Current value
-   Summary values (minimum, maximum and average) over the last 10 minutes
+  * Summary values (minimum, maximum and average) over the last 10 minutes
   * Plot values over the last 10 minutes
 
 In addition, we will use PI Web API Indexed Search to allow user to search and select for a state name by typing into the text box. We will also be opening a channel to the stream so that there are live value updates on the client.
