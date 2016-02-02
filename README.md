@@ -1,5 +1,5 @@
 # techcon-2016-piwebapi-advanced
-This is the lab for 'Advanced PI Web API' in TechCon 2016.
+This is the lab for 'Advanced PI Web API' in OSIsoft TechCon 2016.
 
 ## Introduction
 This is a single-page web application that shows statewide web traffic data retrieved from the PI System. When user clicks on a state, PI Web API will issue a batch call to get following information to populate on the right side:
