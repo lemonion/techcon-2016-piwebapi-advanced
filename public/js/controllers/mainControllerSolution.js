@@ -199,7 +199,7 @@ app.controller('MainController',['$scope', 'piWebApiREST', function($scope, piWe
     var parsedData = JSON.parse(event.data);
     var values = parsedData.Items[0].Items;
     for (var i = 0; i < values.length; i++) {
-      addNewValueOnMessage(values[0].Timestamp, values[0].Value);
+      addNewValueOnMessage(values[i].Timestamp, values[i].Value);
     }
     // TODO: Exercise 3b Step 2 (end)
 
